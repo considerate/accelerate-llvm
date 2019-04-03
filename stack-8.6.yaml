@@ -19,6 +19,9 @@ extra-deps:
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
+flags:
+  accelerate:
+    nofib: false
 
 # Extra global and per-package GHC options
 # ghc-options: {}
